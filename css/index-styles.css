@@ -1,0 +1,47 @@
+body {
+  background: url(https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=a);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #efefef;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: cursive;
+  letter-spacing: 0.1rem;
+  margin: 3rem 0;
+}
+ul {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 270px;
+  list-style: none;
+}
+li {
+  margin-top: 1.8rem;
+}
+i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: rgb(150, 135, 135);
+}
+a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.3s;
+}
+a:hover {
+  padding-left: 0.6rem;
+}
+/***************************** Media Queries *************************/
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
